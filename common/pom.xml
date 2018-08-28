@@ -9,25 +9,11 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <parent>
-        <groupId>com.yaochow</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0.0</version>
-    </parent>
-
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.0</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
