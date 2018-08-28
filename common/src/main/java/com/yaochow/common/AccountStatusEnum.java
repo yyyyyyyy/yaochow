@@ -1,4 +1,4 @@
-package com.yaochow.parent.common;
+package com.yaochow.common;
 
 public enum AccountStatusEnum {
 

@@ -1,7 +1,7 @@
 package com.yaochow.user.service;
 
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.AccountDTO;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.AccountDTO;
 
 public interface LoginService {
 

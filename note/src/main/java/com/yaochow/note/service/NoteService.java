@@ -1,10 +1,10 @@
 package com.yaochow.note.service;
 
 import com.yaochow.note.service.impl.NoteServiceHystrix;
-import com.yaochow.parent.common.PageParam;
-import com.yaochow.parent.common.PageResult;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.NoteDTO;
+import com.yaochow.common.PageParam;
+import com.yaochow.common.PageResult;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.NoteDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

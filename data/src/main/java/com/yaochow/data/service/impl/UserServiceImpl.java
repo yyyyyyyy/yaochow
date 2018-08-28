@@ -4,7 +4,7 @@ import com.yaochow.data.common.DBConstant;
 import com.yaochow.data.entity.User;
 import com.yaochow.data.repository.UserRepository;
 import com.yaochow.data.service.UserService;
-import com.yaochow.parent.dto.UserDTO;
+import com.yaochow.dto.UserDTO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;

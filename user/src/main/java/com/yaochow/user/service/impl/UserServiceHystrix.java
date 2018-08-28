@@ -1,8 +1,8 @@
 package com.yaochow.user.service.impl;
 
-import com.yaochow.parent.common.HystrixEffectiveEnum;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.UserDTO;
+import com.yaochow.common.HystrixEffectiveEnum;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.UserDTO;
 import com.yaochow.user.service.UserService;
 import org.springframework.stereotype.Component;
 

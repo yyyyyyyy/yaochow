@@ -1,7 +1,7 @@
 package com.yaochow.user.service;
 
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.AccountDTO;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.AccountDTO;
 import com.yaochow.user.service.impl.AccountServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;

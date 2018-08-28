@@ -7,7 +7,7 @@ import com.yaochow.data.entity.Note;
 import com.yaochow.data.entity.PageEntity;
 import com.yaochow.data.repository.NoteRepository;
 import com.yaochow.data.service.NoteService;
-import com.yaochow.parent.dto.NoteDTO;
+import com.yaochow.dto.NoteDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.yaochow.parent.dto;
+package com.yaochow.dto;
 
 import lombok.Data;
 

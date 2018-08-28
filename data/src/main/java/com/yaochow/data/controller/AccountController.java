@@ -2,9 +2,10 @@ package com.yaochow.data.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.yaochow.data.service.AccountService;
-import com.yaochow.parent.common.ErrorMsgEnum;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.AccountDTO;
+
+import com.yaochow.common.ErrorMsgEnum;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.AccountDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

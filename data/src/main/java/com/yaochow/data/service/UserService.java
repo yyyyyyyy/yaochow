@@ -1,6 +1,6 @@
 package com.yaochow.data.service;
 
-import com.yaochow.parent.dto.UserDTO;
+import com.yaochow.dto.UserDTO;
 
 public interface UserService {
 

@@ -1,8 +1,9 @@
 package com.yaochow.note.service.impl;
 
+import com.yaochow.common.*;
 import com.yaochow.note.service.NoteService;
-import com.yaochow.parent.common.*;
-import com.yaochow.parent.dto.NoteDTO;
+import com.yaochow.common.common.*;
+import com.yaochow.dto.NoteDTO;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

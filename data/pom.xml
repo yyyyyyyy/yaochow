@@ -72,8 +72,12 @@
         </dependency>
 
         <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.yaochow</groupId>
-            <artifactId>parent</artifactId>
+            <artifactId>common</artifactId>
         </dependency>
     </dependencies>
 

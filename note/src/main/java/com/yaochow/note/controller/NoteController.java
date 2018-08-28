@@ -2,11 +2,11 @@ package com.yaochow.note.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.yaochow.note.service.NoteService;
-import com.yaochow.parent.common.ErrorMsgEnum;
-import com.yaochow.parent.common.PageParam;
-import com.yaochow.parent.common.PageResult;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.NoteDTO;
+import com.yaochow.common.ErrorMsgEnum;
+import com.yaochow.common.PageParam;
+import com.yaochow.common.PageResult;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.NoteDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

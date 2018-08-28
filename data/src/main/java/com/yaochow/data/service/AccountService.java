@@ -1,6 +1,6 @@
 package com.yaochow.data.service;
 
-import com.yaochow.parent.dto.AccountDTO;
+import com.yaochow.dto.AccountDTO;
 
 public interface AccountService {
 

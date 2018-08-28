@@ -24,25 +24,6 @@
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.0</version>
-        </dependency>
-    </dependencies>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -103,7 +84,7 @@
 
             <dependency>
                 <groupId>com.yaochow</groupId>
-                <artifactId>parent</artifactId>
+                <artifactId>common</artifactId>
                 <version>1.0.0</version>
             </dependency>
         </dependencies>

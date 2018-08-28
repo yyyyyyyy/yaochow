@@ -1,7 +1,7 @@
 package com.yaochow.data.service;
 
 import com.yaochow.data.entity.PageEntity;
-import com.yaochow.parent.dto.NoteDTO;
+import com.yaochow.dto.NoteDTO;
 import org.springframework.data.domain.Page;
 
 import java.util.List;

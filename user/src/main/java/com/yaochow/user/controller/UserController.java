@@ -1,9 +1,9 @@
 package com.yaochow.user.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yaochow.parent.common.ErrorMsgEnum;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.UserDTO;
+import com.yaochow.common.ErrorMsgEnum;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.UserDTO;
 import com.yaochow.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

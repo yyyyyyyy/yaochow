@@ -1,9 +1,9 @@
 package com.yaochow.user.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yaochow.parent.common.ErrorMsgEnum;
-import com.yaochow.parent.common.ResultBase;
-import com.yaochow.parent.dto.AccountDTO;
+import com.yaochow.common.ErrorMsgEnum;
+import com.yaochow.common.ResultBase;
+import com.yaochow.dto.AccountDTO;
 import com.yaochow.user.service.AccountService;
 import com.yaochow.user.service.LoginService;
 import com.yaochow.user.service.RegisterService;
