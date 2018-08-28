@@ -85,6 +85,7 @@ public class RegisterServiceImpl implements RegisterService {
             resultBase.setSuccess(false);
             resultBase.setErrorMsg(ErrorMsgEnum.SYSTEM_ERROR.getErrorMsg());
             resultBase.setErrorCode(ErrorMsgEnum.SYSTEM_ERROR.getErrorCode());
+            return resultBase;
         }
         if (Objects.equals(key, MD5Util.md5(resultBase.getResult().getId(), uidKey))) {
             resultBase.getResult().setStatus(AccountStatusEnum.CONFIRM.getCode());
