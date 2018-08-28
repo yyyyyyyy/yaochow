@@ -74,7 +74,6 @@
         <dependency>
             <groupId>com.yaochow</groupId>
             <artifactId>parent</artifactId>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
