@@ -2,6 +2,7 @@ package com.yaochow.data.service.impl;
 
 import com.yaochow.data.common.DBConstant;
 import com.yaochow.data.entity.Account;
+import com.yaochow.data.entity.PageEntity;
 import com.yaochow.data.repository.AccountRepository;
 import com.yaochow.data.service.AccountService;
 import com.yaochow.common.AccountStatusEnum;
@@ -91,7 +92,7 @@ public class AccountServiceImpl implements AccountService {
     public AccountDTO getAccount(AccountDTO accountDTO) {
         Account account = new Account();
         BeanUtils.copyProperties(accountDTO, account);
-        List<Account> accounts = accountRepository.findAll(Example.of(account));
+        List<Account> accounts = accountRepository.findAll(Example.of(account), new PageEntity().getSort());
         if (!CollectionUtils.isEmpty(accounts) && accounts.size() > 0){
             AccountDTO accountDTORes = new AccountDTO();
             BeanUtils.copyProperties(accounts.get(0), accountDTORes);
