@@ -53,9 +53,7 @@ export default {
         }
       }).then((response) => {
         if (response.data.success) {
-          if (response.data.result) {
-            this.notes = response.data.result
-          }
+          this.notes = response.data.result
         }
       }).catch((response) => {
         console.info(response)
