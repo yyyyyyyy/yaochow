@@ -3,8 +3,8 @@
     <div class="content2">
       <h2>Sign Up</h2>
       <form @submit.prevent="register">
-        <input type="text" name="username" v-model="username" @blur="check_username" placeholder="UESRNAME">
-        <input type="email" name="email" v-model="email" @blur="check_email" placeholder="EMAIL">
+        <input type="text" name="username" v-model="username" placeholder="UESRNAME">
+        <input type="email" name="email" v-model="email" placeholder="EMAIL">
         <input type="password" name="password" v-model="password" placeholder="PASSWORD">
         <input type="submit" class="register" value="Register">
         <input type="button" class="register-login" value="Sign In" @click="turn_to_login">
