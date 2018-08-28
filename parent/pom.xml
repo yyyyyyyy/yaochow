@@ -6,7 +6,7 @@
     <groupId>com.yaochow</groupId>
     <artifactId>parent</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>parent</name>
     <description>Parent</description>
@@ -99,6 +99,12 @@
                 <groupId>javax.activation</groupId>
                 <artifactId>activation</artifactId>
                 <version>1.1.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.yaochow</groupId>
+                <artifactId>parent</artifactId>
+                <version>1.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
