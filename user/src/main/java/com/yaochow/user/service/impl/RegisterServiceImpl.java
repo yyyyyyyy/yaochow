@@ -61,6 +61,7 @@ public class RegisterServiceImpl implements RegisterService {
             userService.insert(userDTO);
 
             String mailContent = String.format(emailContent,
+                    resultBase.getResult().getUsername(),
                     resultBase.getResult().getEmail(),
                     MD5Util.md5(resultBase.getResult().getId(), uidKey));
             MailUtil.send(resultBase.getResult().getEmail(), mailContent);
